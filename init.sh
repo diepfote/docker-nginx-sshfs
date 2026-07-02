@@ -30,7 +30,7 @@ else
   PLACEHOLDER_SSH_KEY=""
 fi
 
-OTHER_OPTIONS="-C -o transform_symlinks -o follow_symlinks -o allow_other -o reconnect -o StrictHostKeyChecking=no -o nonempty"
+OTHER_OPTIONS="-C -o transform_symlinks -o follow_symlinks -o allow_other -o reconnect -o StrictHostKeyChecking=no"
 
 if [ -n "${REMOTE_PASSWORD}" ]; then
     echo "Use password from enviromental variable"
